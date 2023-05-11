@@ -2,6 +2,9 @@
   "name": "aula-02",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">=18"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -16,6 +19,7 @@
     "@types/node": "^18.16.3",
     "@types/supertest": "^2.0.12",
     "eslint": "^8.39.0",
+    "sqlite3": "^5.1.6",
     "supertest": "^6.3.3",
     "tsup": "^6.7.0",
     "tsx": "^3.12.7",
@@ -27,7 +31,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.17.0",
     "knex": "^2.4.2",
-    "sqlite3": "^5.1.6",
+    "pg": "^8.10.0",
     "zod": "^3.21.4"
   }
 }

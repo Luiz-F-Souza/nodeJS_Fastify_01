@@ -12,6 +12,8 @@
 - vitest
 - supertest (serve para fazer requisições de teste sem colocar o servidor (app) no ar)
 - tsup (build for typescript)
+- sqlite
+- PostgresSQL
 
 
 ### Instalações & Configurações
@@ -25,7 +27,8 @@
 - npm i eslint -D
   - npm i @rocketseat/eslint-config -D
 - npm install knex --save
-  - DRIVER: npm install sqlite3 --save
+  - DRIVER DB: npm install sqlite3 --save
+  - DRIVER DB: npm i pg
 - npm i dotenv
 - npm i zod
 - npm i vitest -D
